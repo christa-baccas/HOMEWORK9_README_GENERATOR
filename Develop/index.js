@@ -59,7 +59,7 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
       err ? console.log(err) : console.log("README Created!")
-    });
+    })
 }
 // TODO: Create a function to initialize app
 function init() {

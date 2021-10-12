@@ -23,5 +23,5 @@ function generateMarkdown(data) {
   ${varName}
 `;
 }
-
+// exported
 module.exports = generateMarkdown;

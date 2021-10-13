@@ -1,47 +1,53 @@
+![License Badge](https://img.shields.io/badge/license-MIT-blue)
+# HOMEWORK9_README_GENERATOR
 
-  # asd 
+# Node.Js  - ReadMe Generator 
 
-
-  ## Description: 
- asd 
-
-
-  ## Table of Contents 
+## Description: 
+ The purpose of this project was automate the process of creating a README.md file. This assignment takes user input through the command line and adds those results to a newly created files. Information included:
+  - User Github Username
+  - Name of Repo
+  - Name of Project/Assignment
+  - Description of Project/Assignment
+  - Installation steps (If applicable)
+  - Choice of Licenses Used (If applicable)
+  - Contributors to Project/Assignment (If applicable)
+  - How application is used
+  - Test Cases (If applicable)
+  - Contact information
   
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributors](#contributors)
-  * [License](#license)
-    
-  ## Installation 
- asd 
+## Table of Contents 
 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributors](#contributors)
+* [License](#license)
+  
+## Installation 
 
-  ## Usage 
- asd 
+This is an application that needs to be ran via the command line. Right click the ’index.js file and open in integrated terminal. Once the terminal opens type node index.js to receive user prompt of question. Fill out each question and press enter after each over to move onto the next question. 
 
-
-  ## Contributors 
- asd 
-
-
-  ## Testing 
- asd 
-
-
-
-  ## License 
+## Usage 
  
-  MIT 
+![Video](new-readme.gif)
 
-  ![License Badge](https://img.shields.io/badge/license-MIT-blue)
+## Contributors 
 
-  ## Questions: 
- 
-  If you have any questions, please feel free to contact me at:
+TA , AskBCS , Study Group
 
-  Email Address: asd 
 
-  Github Account: https://github.com/asd
+## Testing 
+
+This application does not have any test cases. 
+
+
+## License 
+MIT 
+![License Badge](https://img.shields.io/badge/license-MIT-blue)
+
+## Questions: 
+If you have any questions, please feel free to contact me at:
+  Email Address: christa.baccas@gmail.com
+  Github Account: https://github.com/christa-baccas
 
 

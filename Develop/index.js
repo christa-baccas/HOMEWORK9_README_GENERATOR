@@ -43,7 +43,7 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'Please provide examples on how your application is used.',
+        message: 'Please provide examples on how your application is used (Enter the file name for photos or gif).',
         name: 'usage',
       },
       {

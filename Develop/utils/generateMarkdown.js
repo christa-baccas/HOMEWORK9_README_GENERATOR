@@ -47,13 +47,17 @@ function generateMarkdown(data) {
   * [Contributors](#contributors)
   * [License](#license)
     
-  ## Installation \n ${data.installation} \n
+  ## Installation \n 
+  ${data.installation} \n
 
-  ## Usage \n ${data.usage} \n
+  ## Usage \n 
+  ![Photo/Video](${data.usage}) \n
 
-  ## Contributors \n ${data.contribute} \n
+  ## Contributors \n 
+  ${data.contribute} \n
 
-  ## Testing \n ${data.test} \n
+  ## Testing \n 
+  ${data.test} \n
 
 
   ## License \n 

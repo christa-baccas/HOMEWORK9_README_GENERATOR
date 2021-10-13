@@ -1,8 +1,26 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-
+function renderLicenseBadge() {
+  switch(license) {
+    case 'MIT':
+      return `https://img.shields.io/badge/license-${data.license}-blue`
+      break;
+    case 'GNU General Public license v3.0':
+      return `https://img.shields.io/badge/license-${data.license}-red`
+      break;
+    case 'Apache License 2.0':
+      return `https://img.shields.io/badge/license-${data.license}-yellow`
+      break;
+    case 'Boost Software Lisense 1.0':
+      return `https://img.shields.io/badge/license-${data.license}-green`
+    default:
+  
+  }
 }
+
+renderLicenseBadge()
+//choices: ['MIT', 'GNU General Public license v3.0', 'Apache License 2.0', 'Boost Software Lisense 1.0']
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -31,7 +49,7 @@ function generateMarkdown(data) {
   * [Contributors](#contributors)
   * [License](#license)
     
-  ## Installation Process \n ${data.installation} \n
+  ## Installation \n ${data.installation} \n
 
   ## Usage \n ${data.usage} \n
 

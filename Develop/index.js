@@ -43,12 +43,17 @@ const questions = [
       },
       {
         type: 'input',
+        message: 'Please provide examples on how your application is used.',
+        name: 'usage',
+      },
+      {
+        type: 'input',
         message: 'Please list any test cases written for this assignement/project.',
         name: 'test',
       },
       {
         type: 'input',
-        message: 'Please enter your Email Address to be contacted with any questions.',
+        message: 'Please enter your email address to be contacted with any questions.',
         name: 'contact',
       },
       
@@ -56,7 +61,7 @@ const questions = [
 // console.log(questions)
 
 //TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(fileName, userInput) {
     fs.writeFile(fileName, data, err => {
       err ? console.log(err) : console.log("README Created!")
     })
@@ -64,22 +69,12 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
 inquirer.prompt(questions)
-.then((data) => {
-    console.log(data)
-    writeToFile('README.md', generateMarkdown(data));
+.then((userInput) => {
+    console.log(userInput)
+    writeToFile('README.md', generateMarkdown(userInput));
 });
 }
 
 // Function call to initialize app
 init();
 
-
-
-
-// README.md is generated with the:
-    // title of my project (when I enter my project title it's displayed as the title of the README)
-    // sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions (I enter this information, it's added to the sections of the README)
-// If I choose a license for my application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-// If I enter my GitHub username it's added to the section of the README entitled Questions, with a link to my GitHub profile
-// If I enter my email address it's added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-// when I click on the links in the Table of Contents I am taken to the corresponding section of the README

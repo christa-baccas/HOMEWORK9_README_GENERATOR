@@ -34,8 +34,8 @@
  
   MIT 
 
+  ![License Badge](https://img.shields.io/badge/license-MIT-blue)
 
-  
   ## Questions: 
  
   If you have any questions, please feel free to contact me at:

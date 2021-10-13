@@ -1,25 +1,22 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge() {
+function renderLicenseBadge(license) {
   switch(license) {
     case 'MIT':
-      return `https://img.shields.io/badge/license-${data.license}-blue`
+      return `https://img.shields.io/badge/license-${license}-blue`
       break;
     case 'GNU General Public license v3.0':
-      return `https://img.shields.io/badge/license-${data.license}-red`
+      return `https://img.shields.io/badge/license-${license}-red`
       break;
     case 'Apache License 2.0':
-      return `https://img.shields.io/badge/license-${data.license}-yellow`
+      return `https://img.shields.io/badge/license-${license}-yellow`
       break;
     case 'Boost Software Lisense 1.0':
-      return `https://img.shields.io/badge/license-${data.license}-green`
+      return `https://img.shields.io/badge/license-${license}-green`
     default:
-  
+      return ''
   }
 }
-
-renderLicenseBadge()
-//choices: ['MIT', 'GNU General Public license v3.0', 'Apache License 2.0', 'Boost Software Lisense 1.0']
 
 
 // TODO: Create a function that returns the license link
@@ -60,8 +57,8 @@ function generateMarkdown(data) {
 
   ## License \n 
   ${data.license} \n
+  ![License Badge](${renderLicenseBadge(data.license)})
 
-  
   ## Questions: \n 
   If you have any questions, please feel free to contact me at:\n
   Email Address: ${data.contact} \n
@@ -69,7 +66,6 @@ function generateMarkdown(data) {
 
 `;
 }
-
 
 // exported
 module.exports = generateMarkdown;

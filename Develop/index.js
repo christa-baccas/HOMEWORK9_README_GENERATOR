@@ -61,17 +61,17 @@ const questions = [
 // console.log(questions)
 
 //TODO: Create a function to write README file
-function writeToFile(fileName, userInput) {
-    fs.writeFile(fileName, userInput, err => {
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
       err ? console.log(err) : console.log("README Created!")
     })
 }
 // TODO: Create a function to initialize app
 function init() {
 inquirer.prompt(questions)
-.then((userInput) => {
-    console.log(userInput)
-    writeToFile('README.md', generateMarkdown(userInput));
+.then((data) => {
+    console.log(data)
+    writeToFile('README.md', generateMarkdown(data));
 });
 }
 

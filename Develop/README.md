@@ -9,35 +9,42 @@
  asd 
 
 
-  ## Table of Contents: 
+  ## Table of Contents 
   
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * 
-  ## Installation Process: 
+    1.[Installation](#installation)
+    2.[Usage](#usage)
+    3.[Contributing](#contribute)
+    4.[Tests](#test)
+    
+  ## Installation Process 
  asd 
 
 
-  ## Usage: 
+  ## Usage 
  asd 
 
 
-  ## Contributors: 
+  ## Contributors 
  asd 
 
 
-  ## Testing: 
+  ## Testing 
  asd 
 
 
 
-  ## License: 
- MIT 
+  ## License 
+ 
+  MIT 
+
 
 
   
   ## Questions: 
  
-  If you have any questions, please feel free to contact me at asd
+  If you have any questions, please feel free to contact me at:
+  Email Address: asd 
+
+  Github Account: https://github.com/christa-baccasasd
+
+

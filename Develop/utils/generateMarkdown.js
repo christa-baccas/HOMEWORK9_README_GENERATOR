@@ -27,27 +27,31 @@ function generateMarkdown(data) {
 
   ## Description: \n ${data.description} \n
 
-  ## Table of Contents: \n  
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * 
-  ## Installation Process: \n ${data.installation} \n
+  ## Table of Contents \n  
+    1.[Installation](#installation)
+    2.[Usage](#usage)
+    3.[Contributing](#contribute)
+    4.[Tests](#test)
+    
+  ## Installation Process \n ${data.installation} \n
 
-  ## Usage: \n ${data.usage} \n
+  ## Usage \n ${data.usage} \n
 
-  ## Contributors: \n ${data.contribute} \n
+  ## Contributors \n ${data.contribute} \n
 
-  ## Testing: \n ${data.test} \n
+  ## Testing \n ${data.test} \n
 
 
-  ## License: \n 
+  ## License \n 
   ${data.license} \n
+
 
   
   ## Questions: \n 
-  If you have any questions, please feel free to contact me at ${data.contact}
+  If you have any questions, please feel free to contact me at:
+  Email Address: ${data.contact} \n
+  Github Account: https://github.com/${data.username}\n
+
 `;
 }
 

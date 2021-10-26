@@ -4,7 +4,7 @@
 # Node.Js  - ReadMe Generator 
 
 ## Description: 
- The purpose of this project was automate the process of creating a README.md file. This assignment takes user input through the command line and adds those results to a newly created files. Information included:
+ The purpose of this project was automate the process of creating a README.md file. This assignment takes user input through the command line and adds those results to a newly created file. Information included:
   - User Github Username
   - Name of Repo
   - Name of Project/Assignment
@@ -25,7 +25,7 @@
   
 ## Installation 
 
-This is an application that needs to be ran via the command line. Right click the ’index.js file and open in integrated terminal. Once the terminal opens type node index.js to receive user prompt of question. Fill out each question and press enter after each over to move onto the next question. 
+This is an application that needs to be ran via the command line. Right click the index.js file and open in integrated terminal. Once the terminal opens type node index.js to receive user prompt of question. Fill out each question and press enter after to move onto the next question. 
 
 ## Usage 
  

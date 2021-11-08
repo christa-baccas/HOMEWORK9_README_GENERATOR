@@ -1,5 +1,5 @@
 ![License Badge](https://img.shields.io/badge/license-MIT-blue)
-# HOMEWORK9_README_GENERATOR
+# README_GENERATOR
 
 # Node.Js  - ReadMe Generator 
 
